@@ -36,15 +36,7 @@ nav li {
     color: white;
     padding: 18px 35px;
 }
-.btan {
-    height: 64px;
-    font-size: 25px;
-    font-weight: 700;
-    border-radius: 5px;
-    border: 1;
-    color: rgb(0, 0, 0);
-    padding: 18px 35px;
-}
+
 
 .text-red {
     color: red;
@@ -148,4 +140,68 @@ section{
     margin-top: 10px;
     margin-bottom: 20px;
 
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: darkslategrey;
+    margin-bottom: 10px;
+    
+}
+.resume .sub-title{
+    color:darkcyan;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.resume .description{
+    color:darkcyan;
+    margin-bottom: 10px;
+}
+.resume-item{
+    margin-bottom: 40px;
+}
+.resume-btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    gap: 50px;
+    background-color:antiquewhite ;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact .description{
+    font-size: 10px;
+}
+.socials{
+    font-size: 20px;
+}
+.contact input, textarea{
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 5px;
+  width: 100%;  
+  padding: 18px,30px;
+}
+input{
+    height: 64px;
+
+}
+.cont-title{
+    margin-bottom: 40px;
+}
+.description{
+    margin-bottom: 30px;
+}
+.socials{
+    gap: 50px;
 }
