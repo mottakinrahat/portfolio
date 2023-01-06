@@ -87,6 +87,7 @@ margin-top: 130px;
 background-color:antiquewhite;
 border-radius: 10px;
 padding: 130px 150px;
+margin-bottom: 80px;
 }
 .section-title{
  text-align: center;  
@@ -111,4 +112,40 @@ margin-bottom: 30px;
 .info-des{
     font-weight: 700;
    color: rgb(23, 43, 43);
+}
+.sec-title{
+    text-align: center;  
+ font-size: 30px;
+ font-weight: 700;
+ margin-bottom: 40px;
+
+
+}
+section{
+  margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap:20px;
+    padding: 5px 5px 5px;
+  
+}
+.skills{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 6px 50px rgba(3, 1, 1, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.skill-des{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
 }
